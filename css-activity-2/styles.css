@@ -1,0 +1,21 @@
+.odd {
+    background-color: lightpink;
+    font-style: oblique
+    
+}
+#line { 
+    font-size: 24px;
+    
+    
+}
+#line1 {
+    color: blue;
+    font-size: 36px;
+    font-style: normal
+}
+#line2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font: bold;
+}
+
