@@ -1,0 +1,36 @@
+h1 {
+    color:#4c055e;
+    border: dotted;
+    border-color: rgb(61, 16, 140)
+    
+}
+
+* {
+    background-color: #a38fbc; 
+}
+
+p {
+    color: #890000;
+    font-family: monospace;
+    font-size: medium;
+    font-weight: 600
+    
+    
+}
+div{
+    border-color: hsl(240, 56%, 59%);
+    
+}
+
+.alert {
+    color:#000101;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+#para-2 {
+    color: brown;
+    border:dotted;
+    border-color: rgb(22, 19, 29)
+}
+

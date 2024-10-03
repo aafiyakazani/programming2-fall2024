@@ -1,0 +1,14 @@
+#black {
+    background-color:#000000;
+    color: aliceblue;
+}
+        
+#yellow {
+    background-color: yellow;
+}
+
+#black, #yellow {
+    font-size: 28px;
+    font-family: "times n"
+}
+
