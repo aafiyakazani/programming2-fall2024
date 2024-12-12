@@ -36,15 +36,15 @@ function clearTasks() {
 }
 
 function prioritizeTasks() {
-    let taskToPrioritize = prompt("Enter the task you want to prioritize:");
+    let task = prompt("Enter the task you want to prioritize:");
     let taskFound = false;
     let tasklist = document.getElementById("task-list");
-     let listItems = taskList.getElementsByTagName("li");
-    tasks = tasks.toLowerCase();
+     let listItems = tasklist.getElementsByTagName("li");
+    task = task.toLowerCase();
 
     for (let i = 0; i < tasks.length; i++) {
         if (tasks[i].toLowerCase() === task) {
-            listItems[i].style.color = "yellow";
+            listItems[i].style.color = "blue";
             taskFound = true;
         }
     }
